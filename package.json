@@ -2,8 +2,12 @@
   "name": "temp",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build": "tsup index.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "tsup": "^8.0.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
