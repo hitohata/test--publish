@@ -2,8 +2,8 @@
   "name": "temp",
   "module": "index.ts",
   "type": "module",
-  "sctipts": {
-    "build": "t"
+  "scripts": {
+    "build": "tsup index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
