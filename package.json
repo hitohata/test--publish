@@ -1,10 +1,13 @@
 {
   "name": "temp",
-  "module": "index.ts",
-  "type": "module",
+  "version": "0.0.2",
+  "module": "./dist/index.ts",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "build": "tsup index.ts"
   },
+  "author":  "hitohata",
   "devDependencies": {
     "@types/bun": "latest",
     "tsup": "^8.0.1"
