@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Install Bun
-        uses: oven-sh/setup-bun@v4
+        uses: oven-sh/setup-bun@v1
       - name: Install Dependencies
         run: bun install
       - name: Run Tests
@@ -23,7 +23,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Install Bun
-        uses: oven-sh/setup-bun@v4
+        uses: oven-sh/setup-bun@v1
       - name: Install Dependencies
         run: bun install
       - name: Run Package Build
