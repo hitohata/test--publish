@@ -1,6 +1,6 @@
 {
-  "name": "temp",
-  "version": "0.0.4",
+  "name": "super-hogehoge-package",
+  "version": "0.0.5",
   "module": "./dist/index.ts",
   "types": "./dist/index.d.ts",
   "files": ["dist"],
